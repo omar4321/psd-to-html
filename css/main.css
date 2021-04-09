@@ -1,0 +1,351 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1160;
+  margin: auto;
+  width: 90%;
+}
+
+.header-area {
+  background-color: #23232e;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  overflow: hidden;
+  padding: 60px 0;
+}
+
+.header-area .logo-area {
+  overflow: hidden;
+  margin-bottom: 100px;
+}
+.header-area .text-area {
+  overflow: hidden;
+  margin-bottom: 100px;
+}
+
+.header-area .text-area .H-text h2 {
+  font-size: 70px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+  margin-bottom: 18px;
+}
+
+.header-area .text-area .p-text p {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: sans-serif;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+  line-height: 1.3cm;
+}
+.header-area .icon-ara {
+  overflow: hidden;
+}
+.header-area .icon-ara a {
+  text-decoration: none;
+  color: aliceblue;
+}
+
+.header-area .icon-ara {
+  font-size: 18px;
+  height: 16px;
+  width: 16px;
+  border-radius: 90%;
+  padding: 25px;
+  border: 2px solid #fff;
+  position: relative;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+}
+.header-area .icon-ara a {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-40%);
+}
+
+/*********************start what-i-do-area*********************/
+
+.what-i-do-area {
+  overflow: hidden;
+  padding: 70px 0;
+  background: url("../img/back.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+
+.what-i-do-area .para-1 {
+  width: 50%;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 60px;
+}
+
+.what-i-do-area .para-2 {
+  width: 50%;
+  text-align: center;
+  margin: auto;
+}
+
+.what-i-do-area .para-1 p {
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #494848;
+  line-height: 1.3em;
+}
+
+.what-i-do-area .para-2 p {
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #494848;
+  line-height: 1.3em;
+}
+.what-i-do-area h2 {
+  font-size: 65px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  color: #494848;
+  margin-top: 60px;
+  margin-bottom: 20px;
+}
+
+.col-1-3 {
+  overflow: hidden;
+  width: 33.33%;
+  float: left;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+.col-1-3 {
+  overflow: hidden;
+  width: 33.33%;
+  float: left;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.col-1-3 p {
+  font-size: 17px;
+  font-weight: bold;
+  color: #494848;
+  line-height: 1.3em;
+  color: grey;
+}
+
+.col-1-3 h5 {
+  font-size: 35px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #494848;
+  text-transform: capitalize;
+  margin-bottom: 0;
+}
+
+/*********************work-area***************/
+.work-area {
+  overflow: hidden;
+  background-color: #23232f;
+  text-align: center;
+}
+h2 {
+  text-align: center;
+  text-decoration: none;
+  font-size: 50px;
+  text-transform: capitalize;
+  color: rgb(255, 231, 231);
+  margin: 40px 30px;
+}
+
+.work-area .nav-menu {
+  overflow: hidden;
+  margin-bottom: 40px;
+  margin-top: 10px;
+}
+
+.work-area .nav-menu ul {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+.work-area .nav-menu ul li {
+  display: inline-block;
+  margin-right: 30px;
+  list-style: none;
+}
+
+.work-area .nav-menu ul li a {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  text-transform: capitalize;
+}
+
+.work-area .nav-menu ul li a:hover {
+  text-decoration: underline;
+}
+
+.row-1 {
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.col-1-3 a {
+  text-decoration: none;
+  text-transform: capitalize;
+  color: #ffffff;
+}
+.col-1-3 h4 {
+  font-size: 28px;
+  color: #c4baba;
+  text-transform: capitalize;
+}
+.col-1-3 a:hover {
+  text-decoration: underline;
+}
+
+.row-2 {
+  overflow: hidden;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.col-1-3 img {
+  border-radius: 10px 10px 10px 10px;
+  text-align: center;
+}
+
+.btn button {
+  text-transform: uppercase;
+  text-decoration: none;
+  background-color: #6460cc;
+  margin-bottom: 30px;
+  margin-top: 10px;
+  padding: 20px 20px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+
+  font-size: 20px;
+  border-radius: 20px 10px;
+}
+
+.photography-area {
+  background-color: #fff;
+  background: url(../img/back.png);
+  text-align: center;
+}
+.photography-area h2 {
+  color: #202427;
+  margin-top: 60px;
+}
+
+.photography-area p {
+  color: rgb(73, 73, 73);
+  width: 50%;
+  margin: auto;
+  font-size: 25px;
+  line-height: 1cm;
+  margin-bottom: 40px;
+  margin-top: 30px;
+}
+.photography-area .btn2 button{
+  text-transform: uppercase;
+  text-decoration: none;
+  background-color: #6460cc;
+  margin-bottom: 30px;
+  margin-top: 10px;
+  padding: 20px 20px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+   
+  font-size: 20px;
+  border-radius: 20px 10px;
+}
+/* Sub-area */
+.Sub-area{
+  background-color: #23232f;
+}
+.infinity h1{
+  font-size: 200px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  transition: 1s;
+  margin-top: 20px;
+  margin-bottom: 10px;
+ 
+}
+.infinity h1:hover{
+ color: #000;
+}
+
+.Sub-area .pera{
+  text-align: center;
+  font-size: 20px;
+  width: 40%;
+  margin: auto;
+  color: rgb(255, 254, 254);
+}
+
+.Sub-area .btn{
+  text-align: center;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.Sub-area .btn input{
+ height: 70px;
+ width: 300px;
+ border-radius: 10px 10px 5px 5px;
+ border: #fff;
+
+}
+.Sub-area .btn button{
+  height: 70px;
+  width: 15%;
+  border-radius: 9px 10px;
+  border: #fff;
+}
+/* end sub-area */
+/* fotter */
+.fotter{
+  text-align: center;
+  background: url(../img/back.png);
+}
+
+.fotter .icon ul{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+.fotter .icon ul li{
+  text-decoration: none;
+ list-style: none;
+ margin-left: 40px;
+ font-size: 50px;
+}
+
+.made-by{
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
